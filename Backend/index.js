@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://hireline-1.onrender.com"],
+  origin: true,
   credentials: true,
 };
 
